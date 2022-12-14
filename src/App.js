@@ -13,7 +13,7 @@ function App() {
 	useEffect(() => {
 		setTimeout(() => {
 			setState(true);
-		}, 2200);
+		}, 2000);
 	}, []);
 
 	return (
@@ -27,7 +27,7 @@ function App() {
 				>
 					<img
 					className='s_logo'
-						src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ8lTnRbGDkaVBfLJbG_lxdsDvMWyadTG6LjoiS-_F&s'
+						src='https://i.gifer.com/g0R9.gif'
 						alt='logo'
 					/>
 				</div>

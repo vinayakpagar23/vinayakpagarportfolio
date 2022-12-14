@@ -6,8 +6,9 @@
 	align-items: center;
 }
 .logoStart img {
-	width: 100px;
-	animation: revolve 0.8s infinite;
+	width: 150px;
+	border-radius: 50%;
+	/* animation: revolve 0.8s infinite; */
 }
 .ts_logo{
 	border-radius: 100%;

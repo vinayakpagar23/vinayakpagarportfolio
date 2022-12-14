@@ -1,9 +1,11 @@
 import React from "react";
 import GitHubCalendar from "react-github-calendar";
  import "./Github.css";
-
-
+ import { useContext } from 'react';
+ import { ThemeContext } from '../../ContextProvider/ThemeContext';
+ 
 const GitHub = () => {
+  const { newTheme } = useContext(ThemeContext);
   const github = {
     margin: "auto",
     border: "5px solid #A3E900",
@@ -13,7 +15,8 @@ const GitHub = () => {
 
   return (
     <div className="github">
-      <h1>DAYS I CODE</h1>
+      <h1 style={{ color: `${newTheme.title}` }}
+				>DAYS I CODE</h1>
       
       <div
         w={["100%", "100%", "65%"]}
