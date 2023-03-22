@@ -25,7 +25,7 @@ const Contact = () => {
 		  Mobile: +91-<span style={{ color: `#00a0a0`, fontSize:`20px`, textDecoration: `underline` }} >9689886567</span>{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  <p style={{ color: `#00a0a0`,fontSize:`20px` }}>
-            Location: Nashik, Maharastra, India{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
+            Location: Nashik, Maharashtra, India{'\u00A0'}{'\u00A0'}{'\u00A0'}{'\u00A0'}
           </p>
 		  
         <div
